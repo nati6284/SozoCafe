@@ -19,7 +19,9 @@ function AppShell() {
   const whatsappUrl=`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hello '+cafeConfig.name+', I would like to ask about your menu.')}`
   return <div className={lang==='am'?'app amharic':'app'}>
     <header className="site-header">
-      <Link to="/" className="brand" aria-label="Home"><img src="/logo.png" alt={cafeConfig.name} className="brand-logo"/></Link>
+      <Link to="/" className="brand" aria-label="Home">
+        <img src="/logo.png" alt={cafeConfig.name} className="brand-logo"/>
+      </Link>
       <button className="mobile-menu icon-button" onClick={()=>setMenuOpen(!menuOpen)} aria-label="Toggle navigation">{menuOpen?<X/>:<MenuIcon/>}</button>
       <nav className={menuOpen?'main-nav open':'main-nav'}>
         <NavLink to="/">{t('home')}</NavLink><NavLink to="/menu">{t('menu')}</NavLink><NavLink to="/contact">{t('contact')}</NavLink>
