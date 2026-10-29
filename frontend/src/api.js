@@ -12,7 +12,6 @@ async function request(path, options = {}) {
 }
 export const api = {
   menu: () => request('/menu'),
-  branches: () => request('/branches'),
   adminLogin: payload => request('/admin/login', { method: 'POST', body: JSON.stringify(payload) }),
   createMenuItem: (payload, token) => request('/admin/menu', { method: 'POST', token, body: JSON.stringify(payload) }),
   updateMenuItem: (id, payload, token) => request(`/admin/menu/${id}`, { method: 'PUT', token, body: JSON.stringify(payload) }),
