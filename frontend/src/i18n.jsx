@@ -18,9 +18,9 @@ const words = {
     failed:'Something went wrong. Please try again.', categories:{Coffee:'Coffee',Food:'Food',Dessert:'Dessert',Juice:'Juice'}
   },
   am: {
-    home:'መነሻ', menu:'ምናሌ', story:'ስለ እኛ', contact:'አድራሻ', reserve:'ጠረጴዛ ይያዙ', order:'አሁን ይዘዙ',
+    home:'መነሻ', menu:'የምግብ ዝርዝር', story:'ስለ እኛ', contact:'አድራሻ', reserve:'ጠረጴዛ ይያዙ', order:'አሁን ይዘዙ',
     eyebrow:'የዕለት ደስታ', headline:'በፍቅር ተዘጋጅቶ።\nበልብ ይቀርባል።', intro:'ጥራት ያለው ቡና፣ ትኩስ ምግብ እና ለመዝናናት ምቹ ቦታ።',
-    explore:'ምናሌውን ይመልከቱ', favorites:'ተወዳጅ ምርጫዎች', favoritesSub:'ሊጎበኙን የሚያነሳሱ ጣፋጭ ምርጫዎች።', viewMenu:'ሙሉ ምናሌ',
+    explore:'የምግብ ዝርዝር ይመልከቱ', favorites:'ተወዳጅ ምርጫዎች', favoritesSub:'ሊጎበኙን የሚያነሳሱ ጣፋጭ ምርጫዎች።', viewMenu:'ሙሉ ምናሌ',
     storyTitle:'እንደ ቤት የሚሰማ ቦታ', storyText:'ምርጥ ጊዜዎች በጠረጴዛ ዙሪያ ይፈጠራሉ ብለን እናምናለን።',
     fresh:'ትኩስ ዝግጅት', freshText:'በጥንቃቄ ከተመረጡ ግብዓቶች በትዕዛዝ ይዘጋጃል።',
     local:'የኢትዮጵያ ሥር', localText:'የአካባቢያችንን የቡና ባህል እና አቀባበል እናከብራለን።',
